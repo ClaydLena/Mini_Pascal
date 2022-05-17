@@ -10,5 +10,23 @@ package Classes;
  * @author ginov
  */
 public class Classe_tokens {
+    private int id;
+    private String classe;
+
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
+
+    public String getClasse() {
+        return classe;
+    }
+
+    public void setClasse(String classe) {
+        this.classe = classe;
+    }
     
 }
